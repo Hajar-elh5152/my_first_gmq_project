@@ -1,7 +1,7 @@
 {
-  "project_name": "Mon petit projet de programmation",
+  "project_name": "Identification et évaluation des zones vertes à Sherbrooke",
   "phase": "Cadrage du projet",
-  "progress": 0,
+  "progress": 14,
   "steps": [
     {
       "id": "M-01",
@@ -11,19 +11,19 @@
         {
           "name": "Définition du projet",
           "substeps": [
-            { "id": "T-001", "name": "Titre du projet", "status": "À faire" },
-            { "id": "T-002", "name": "Contexte et besoin", "status": "À faire" },
-            { "id": "T-003", "name": "Problématique", "status": "À faire" },
-            { "id": "T-004", "name": "Objectifs", "status": "À faire" },
-            { "id": "T-005", "name": "Périmètre", "status": "À faire" },
-            { "id": "T-006", "name": "Résultats attendus", "status": "À faire" },
-            { "id": "T-007", "name": "Contraintes et questions ouvertes", "status": "À faire" }
+            { "id": "T-001", "name": "Titre du projet", "status": "Terminé" },
+            { "id": "T-002", "name": "Contexte et besoin", "status": "Terminé" },
+            { "id": "T-003", "name": "Problématique", "status": "Terminé" },
+            { "id": "T-004", "name": "Objectifs", "status": "Terminé" },
+            { "id": "T-005", "name": "Périmètre", "status": "En cours" },
+            { "id": "T-006", "name": "Résultats attendus", "status": "En cours" },
+            { "id": "T-007", "name": "Contraintes et questions ouvertes", "status": "En cours" }
           ]
         },
         {
           "name": "Analyse des données",
           "substeps": [
-            { "id": "T-008", "name": "Sources des données", "status": "À faire" },
+            { "id": "T-008", "name": "Sources des données", "status": "En cours" },
             { "id": "T-009", "name": "Description et adéquation", "status": "À faire" },
             { "id": "T-010", "name": "Système de coordonnées et unités", "status": "À faire" },
             { "id": "T-011", "name": "Qualité, limites et risques", "status": "À faire" }
@@ -113,31 +113,24 @@
   "decisions": [
     {
       "id": "D-001",
-      "date": "Exemple",
-      "decision": "EXEMPLE FICTIF — Regrouper les couches préparées dans un GeoPackage",
-      "status": "Confirmée",
-      "reason": "Illustration d’un choix de format de stockage : un GeoPackage peut regrouper plusieurs couches dans un fichier. À confirmer selon les données, les usages et les outils du projet."
+      "date": "2026-11-16",
+      "decision": "Définir les critères d’inclusion d’une zone verte et sa taille minimale détectable",
+      "status": "En attente",
+      "reason": "À convenir en équipe; cette définition détermine les éléments cartographiés et la façon de comparer leurs superficies."
     },
     {
       "id": "D-002",
-      "date": "Exemple",
-      "decision": "EXEMPLE FICTIF — Choisir un traitement scripté ou un outil SIG",
-      "status": "En attente",
-      "reason": "À trancher après avoir clarifié les traitements, les compétences disponibles et les besoins de reproductibilité."
+      "date": "2026-11-16",
+      "decision": "Retenir l’imagerie Landsat pour l’été 2024",
+      "status": "Confirmée",
+      "reason": "L’équipe a confirmé cette source d’imagerie et cette période. Le produit, les scènes exactes, la couverture de Sherbrooke, la résolution et les conditions d’accès restent à vérifier."
     },
     {
       "id": "D-003",
-      "date": "Exemple",
-      "decision": "EXEMPLE FICTIF — Choisir le CRS de travail pour l’analyse",
-      "status": "Reportée",
-      "reason": "À réexaminer lorsque le territoire, les données disponibles et les mesures à produire seront confirmés."
-    },
-    {
-      "id": "D-004",
-      "date": "Exemple",
-      "decision": "EXEMPLE FICTIF — Automatiser les mises à jour des données",
-      "status": "Suspendue",
-      "reason": "En attente d’informations sur la fréquence de mise à jour des sources et les conditions d’accès avant de définir l’architecture."
+      "date": "2026-11-16",
+      "decision": "Choisir la méthode d’identification et les indicateurs",
+      "status": "En attente",
+      "reason": "À déterminer après l’inventaire des données et la définition des zones vertes; aucune méthode ni aucun indicateur n’est confirmé."
     }
   ]
 }

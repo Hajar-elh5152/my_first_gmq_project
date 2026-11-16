@@ -1,52 +1,48 @@
-# [Titre du projet]
-
-> **À personnaliser :** remplacez les éléments entre crochets, adaptez les sections à votre projet et supprimez les consignes qui ne vous sont plus utiles.
+# Identification et évaluation des zones vertes à Sherbrooke
 
 ## Présentation
 
-Ce projet porte sur **[sujet ou territoire étudié]**. Il vise à **[objectif principal]**, en s’appuyant sur **[principales données ou méthodes]**, afin de **[résultat ou utilité attendue]**.
+Ce projet vise à localiser et à caractériser les zones vertes sur le territoire de la ville de Sherbrooke. Il devra s’appuyer sur des données en accès libre et des traitements en Python. Les sources, la méthode et les indicateurs seront choisis après l’analyse des données disponibles. Les résultats pourront contribuer à mieux comprendre la répartition des zones végétalisées et leur lien éventuel avec les îlots de chaleur urbains; ce lien ne sera pas évalué directement sans données et méthode adaptées.
 
 ### Problématique
 
-[Formulez en une ou deux phrases la question à laquelle le projet cherche à répondre.]
+Comment localiser et quantifier les zones végétalisées à Sherbrooke à partir des données disponibles, et quels indicateurs permettent de les caractériser ?
 
 ### Objectifs
 
-- [Objectif 1]
-- [Objectif 2]
-- [Objectif 3, si nécessaire]
+- Définir ce qui sera considéré comme une zone verte.
+- Identifier et vérifier les données utiles au projet.
+- Cartographier les zones vertes et calculer leurs caractéristiques, notamment leur superficie.
+- Choisir des indicateurs adaptés aux données et aux objectifs.
+- Présenter les résultats et documenter la méthode.
 
 ### Périmètre et limites
 
-- **Territoire et période étudiés :** [à préciser]
-- **Résultats attendus :** [cartes, indicateurs, analyse, outil, etc.]
-- **Limites connues :** [données manquantes, échelle, hypothèses ou autres limites]
+- **Territoire :** ville de Sherbrooke.
+- **Période envisagée :** été 2024.
+- **Imagerie retenue :** Landsat pour l’été 2024. Le produit, les scènes exactes et leur source restent à documenter et à vérifier.
+- **Éléments inclus :** éléments végétalisés visibles dans les images retenues, sous réserve de préciser leur définition et la taille minimale détectable.
+- **Éléments exclus :** état de santé de la végétation et biodiversité.
+- **Résultats envisagés :** carte des zones vertes, couche avec des attributs (par exemple superficie et catégorie), tableau de synthèse et documentation de la méthode. La liste définitive reste à valider.
+- **Limites à examiner :** disponibilité, date, résolution, couverture, licence et qualité des données; effet de ces limites sur les zones détectées et les indicateurs.
 
 ## Équipe
 
-Choisissez la section qui convient et supprimez l’autre.
-
-### Projet individuel
-
-- **Auteur ou autrice :** [nom]
-- **Contact :** [facultatif]
-
-### Projet en équipe
-
 | Membre | Rôle ou responsabilités |
 | --- | --- |
-| [Nom] | [Responsabilités principales] |
-| [Nom] | [Responsabilités principales] |
+| Pierre Perrais | Gestion du projet et architecture |
+| Jean-Marc Tibo | Données et validation |
 
-Répartissez le travail et convenez d’un mode de communication. Les responsabilités peuvent évoluer ; gardez cette section à jour.
+Les responsabilités principales sont réparties; le mode de communication reste à convenir.
 
-## Bien démarrer
+## Prochaines étapes
 
-1. **Clarifiez le projet** dans [la définition du projet](docs/project-definition.md) : besoin, question, objectifs et périmètre.
-2. **Inventoriez les données** dans [l’analyse des données](docs/data-assessment.md) : sources, formats, dates, qualité, unités et système de coordonnées de référence (CRS).
-3. **Décrivez l’approche** dans [la conception de la solution](docs/solution-design.md) : traitements, résultats attendus et tests.
-4. **Préparez l’environnement** : choisissez les outils nécessaires au projet et documentez leur installation ainsi que les commandes pour exécuter le travail.
-5. **Avancez par petites étapes** : vérifiez les données et les résultats à chaque étape, puis consignez les décisions et les prochaines actions dans [le journal du projet](docs/project-journal.md).
+1. **Finaliser le cadrage en équipe :** définir une zone verte, les catégories visées, la taille minimale à détecter et les livrables.
+2. **Vérifier l’imagerie Landsat de l’été 2024** dans [l’analyse des données](docs/data-assessment.md) : source, produit, dates des scènes, couverture, format, résolution, CRS, conditions d’accès, qualité et limites; préciser aussi la date exacte de remise.
+3. **Compléter l’inventaire et vérifier les autres données utiles** dans [l’analyse des données](docs/data-assessment.md) : provenance, licence, emprise, unités et adéquation aux objectifs.
+4. **Choisir la méthode après l’analyse des données** et la décrire dans [la conception de la solution](docs/solution-design.md), avec les indicateurs, les formats de sortie et les vérifications prévues.
+5. **Planifier les étapes** en tenant compte de l’échéance d’environ un mois; noter les décisions confirmées et les questions ouvertes dans [le journal du projet](docs/project-journal.md).
+6. **Développer les traitements Python**, vérifier les cartes et les mesures, puis documenter les résultats et leurs limites.
 
 Ne supposez pas que les données sont compatibles parce qu’elles s’ouvrent : vérifiez notamment leur CRS, leur emprise, leurs unités et leurs limites avant de les analyser.
 
@@ -136,10 +132,9 @@ Ajoutez les décisions confirmées et les points structurants à suivre au journ
 
 ## Outils et exécution
 
-- **Langage ou environnement :** [à préciser]
-- **Bibliothèques et logiciels :** [à préciser, seulement ceux réellement utilisés]
-- **Installation :** [ajouter les étapes ou commandes nécessaires]
-- **Exécution :** [indiquer les commandes ou étapes pour reproduire le traitement]
+- **Langage :** Python (exigé pour le projet).
+- **Bibliothèques et logiciels :** à choisir après la définition de la méthode.
+- **Installation et exécution :** à documenter lorsque l’environnement et les traitements auront été définis.
 
 ## Documentation du projet
 
@@ -150,4 +145,4 @@ Ajoutez les décisions confirmées et les points structurants à suivre au journ
 
 ## Références et remerciements
 
-[Ajoutez les sources de données, références méthodologiques, licences et contributions externes pertinentes.]
+Les sources de données, références méthodologiques et licences seront ajoutées après l’inventaire et la sélection des données.

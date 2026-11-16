@@ -18,7 +18,9 @@ Vous pouvez aussi ajouter un schéma Mermaid pour illustrer le flux de traitemen
 
 | Étape | Données d’entrée | Traitement prévu | Résultat |
 | --- | --- | --- | --- |
-| [Étape] | [Données utilisées] | [Opération prévue] | [Donnée ou livrable produit] |
+| Vérifier et sélectionner les scènes | Scènes Landsat candidates couvrant Sherbrooke durant l’été 2024 | Vérifier le produit, les dates, l’emprise, les métadonnées, le CRS, la résolution, la couverture nuageuse et les conditions d’accès | Scènes retenues et caractéristiques consignées dans l’analyse des données |
+| Préparer les données d’imagerie | Scènes retenues et limite administrative de Sherbrooke à identifier | Définir les bandes nécessaires après vérification du produit, puis préparer les données à l’emprise de travail | Données préparées; paramètres à documenter |
+| Identifier et caractériser les zones vertes | Données préparées et définition des zones vertes à confirmer | Méthode d’identification et indicateurs à choisir après l’évaluation des données | Carte, couche d’attributs et tableau de synthèse envisagés; formats à préciser |
 
 ## 3. Tests et vérifications
 
@@ -26,4 +28,6 @@ Vous pouvez aussi ajouter un schéma Mermaid pour illustrer le flux de traitemen
 
 | Élément à vérifier | Vérification prévue | Résultat attendu |
 | --- | --- | --- |
-| [Données, CRS, géométries ou résultat] | [Comment vérifier] | [Résultat attendu] |
+| Scènes Landsat retenues | Comparer dates, emprise, métadonnées, résolution, couverture nuageuse et conditions d’accès | Scènes couvrant le territoire et la période d’étude, avec les caractéristiques et limites documentées |
+| CRS et unités | Lire les métadonnées et comparer avec celles des autres couches retenues avant tout calcul de superficie | Références et unités connues et compatibles avec les mesures prévues |
+| Zones et superficies produites | Examiner la couverture, les seuils et les résultats cartographiques une fois la méthode définie | Résultats cohérents avec la définition des zones vertes et les limites de résolution documentées |
