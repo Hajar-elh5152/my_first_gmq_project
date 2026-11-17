@@ -2,6 +2,211 @@
 
 L’étudiant ou l’assistant IA peut rédiger les entrées. L’assistant ne consigne que les travaux réellement réalisés ; il distingue les décisions confirmées des propositions, questions ouvertes et décisions à suivre. Ajoutez les entrées de la plus récente en haut et copiez le modèle en fin de document pour chaque nouvelle entrée.
 
+## 2026-11-17 — Définition des résultats attendus
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-006
+
+### Travaux réalisés
+
+- Confirmation de la liste des livrables du projet : carte des zones vertes, couche avec les attributs pertinents, tableau de synthèse et documentation de la méthode.
+- Retrait de la mention provisoire selon laquelle la liste des livrables devait encore être travaillée.
+- Passage de T-006 à « Terminé » dans le tableau de bord.
+- Mise à jour de la progression du cadrage de 18 % à 21 %.
+
+### Décisions prises et raisons
+
+- Aucun autre choix structurant n’a été confirmé.
+
+### Difficultés et questions ouvertes
+
+- T-007 reste à finaliser : les contraintes sont connues, mais la définition opérationnelle d’une zone verte et la plus petite superficie détectée restent ouvertes.
+
+### Prochaines étapes
+
+- Finaliser les contraintes et les questions ouvertes dans T-007, puis poursuivre l’inventaire et l’évaluation des données dans M-01.
+
+---
+
+## 2026-11-17 — Définition du périmètre
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-005
+
+### Travaux réalisés
+
+- Confirmation des éléments de périmètre consignés dans la définition du projet : ville de Sherbrooke, été 2024, imagerie Landsat, détection des éléments visibles sur les images et exclusion de la santé de la végétation et de la biodiversité.
+- Passage de T-005 à « Terminé » dans le tableau de bord.
+- Mise à jour de la progression du cadrage de 14 % à 18 %.
+
+### Décisions prises et raisons
+
+- Aucune nouvelle décision structurante n’a été ajoutée.
+
+### Difficultés et questions ouvertes
+
+- Les livrables restent à préciser dans T-006.
+- Les contraintes sont consignées, mais la définition opérationnelle d’une zone verte, la taille minimale détectable et les détails des livrables restent à trancher dans T-007.
+
+### Prochaines étapes
+
+- L’équipe : préciser la liste définitive des livrables, puis finaliser les contraintes et les questions ouvertes avant l’analyse détaillée des données.
+
+---
+
+## 2026-11-16 — Répartition des responsabilités de l’équipe
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais et Jean-Marc Tibo
+
+**Identifiants liés :** Aucun
+
+### Travaux réalisés
+
+- Mise à jour du README pour indiquer que Pierre Perrais s’occupe de la gestion du projet et de l’architecture, et que Jean-Marc Tibo s’occupe des données et de la validation.
+- Retrait de la répartition des rôles des questions ouvertes du document de définition du projet.
+
+### Décisions prises et raisons
+
+- Aucune décision structurante du projet n’a été consignée; les responsabilités de travail ont été précisées.
+
+### Difficultés et questions ouvertes
+
+- Le mode de communication reste à convenir.
+
+### Prochaines étapes
+
+- Poursuivre la définition des zones vertes, du seuil minimal détectable et des livrables; vérifier les scènes Landsat de l’été 2024.
+
+---
+
+## 2026-11-16 — Confirmation de Landsat pour l’été 2024
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-008, D-002
+
+### Travaux réalisés
+
+- À la confirmation de Pierre Perrais, mise à jour des documents pour présenter Landsat et l’été 2024 comme choix confirmés pour la source d’imagerie et la période.
+- Mise à jour de D-002 au statut « Confirmée » dans le tableau de bord.
+- Maintien de T-008 « Sources des données » à « En cours », car le produit, les scènes, leur source et leurs métadonnées restent à documenter.
+
+### Décisions prises et raisons
+
+- **D-002 — Retenir l’imagerie Landsat pour l’été 2024.** Ce choix a été confirmé par Pierre Perrais après discussion. Les scènes et le produit précis restent à sélectionner et vérifier.
+
+### Difficultés et questions ouvertes
+
+- La sélection du produit et des scènes couvrant Sherbrooke, ainsi que la vérification des dates, de la résolution, de la couverture nuageuse, du CRS et des conditions d’accès restent à faire.
+
+### Prochaines étapes
+
+- L’équipe : identifier les scènes Landsat de l’été 2024 couvrant Sherbrooke, documenter leur source et leurs conditions d’accès, puis vérifier leurs métadonnées avant de définir la méthode.
+
+---
+
+## 2026-11-16 — Précision de la piste d’imagerie
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-008, D-002
+
+### Travaux réalisés
+
+- Mise à jour initiale des documents pour consigner Landsat et l’été 2024 comme orientation préliminaire indiquée par l’équipe; ce statut a ensuite été confirmé par Pierre Perrais.
+- Ajout dans l’analyse des données des vérifications encore nécessaires sur le produit, les scènes, la source, les dates, la couverture, la résolution, le CRS, les conditions d’accès et les limites.
+- Ajout à la conception d’étapes de vérification et de préparation de l’imagerie, sans fixer de méthode d’identification ni d’indicateur.
+- Maintien initial de D-002 « En attente » et passage de T-008 « Sources des données » à « En cours »; D-002 a ensuite été confirmé, mais aucune scène ni aucun produit précis n’est encore sélectionné.
+
+### Décisions prises et raisons
+
+- Au moment de cette entrée, aucune décision propre au projet n’avait été confirmée; Landsat pour l’été 2024 était une piste à vérifier.
+
+### Difficultés et questions ouvertes
+
+- Le produit Landsat, les dates et scènes exactes, la source de téléchargement et les conditions d’accès ne sont pas encore documentés.
+- La résolution et la couverture des scènes devront être évaluées avant de fixer la taille minimale détectable.
+
+### Prochaines étapes
+
+- L’équipe : sélectionner les scènes candidates de l’été 2024 et consigner leurs métadonnées, leur provenance et leurs conditions d’accès.
+- L’équipe : vérifier la couverture de Sherbrooke, les nuages, le CRS et la résolution avant de confirmer D-002 et de choisir une méthode.
+
+---
+
+## 2026-11-16 — Validation des premiers éléments du cadrage
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-001 à T-007
+
+### Travaux réalisés
+
+- À la suite de la validation du README par Pierre Perrais, passage des tâches T-001 (titre), T-002 (contexte), T-003 (problématique) et T-004 (objectifs) à « Terminé » dans le tableau de bord.
+- Mise à jour de la progression à 14 %, soit 4 tâches terminées sur les 28 tâches suivies, arrondie au pourcentage entier.
+- Maintien de T-005 à T-007 à « En cours », car le choix de la période, la liste définitive des livrables et plusieurs contraintes restent à préciser.
+
+### Décisions prises et raisons
+
+- Aucune décision propre au projet n’a été confirmée.
+
+### Difficultés et questions ouvertes
+
+- La validation porte sur la base de travail du README; elle ne tranche pas les points qui restent en attente.
+
+### Prochaines étapes
+
+- Compléter le périmètre, les résultats attendus et les contraintes avec les choix de l’équipe, puis inventorier les données.
+
+---
+
+## 2026-11-16 — Personnalisation du README et planification du cadrage
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais et Jean-Marc Tibo
+
+**Identifiants liés :** M-01, T-001 à T-007, D-001 à D-003
+
+### Travaux réalisés
+
+- Adaptation du README au projet d’identification et d’évaluation des zones vertes à Sherbrooke, à l’exigence d’utiliser Python et des données en accès libre, et aux objectifs déjà consignés dans la définition du projet.
+- Ajout d’un plan de travail qui commence par définir les zones vertes et le seuil de détection, puis vérifier les données avant de choisir la période, la méthode et les indicateurs.
+- Remplacement dans le tableau de bord des exemples fictifs par trois points à trancher, tous marqués « En attente ».
+- Mise à jour du nom du projet et passage initial des sous-tâches de définition (T-001 à T-007) à « En cours »; leur statut a ensuite été affiné après validation.
+
+### Décisions prises et raisons
+
+- Aucune décision propre au projet n’a été confirmée.
+
+### Difficultés et questions ouvertes
+
+- La définition opérationnelle d’une zone verte et la taille minimale détectable restent à fixer.
+- Les données, la méthode, les indicateurs, les livrables définitifs et la répartition des responsabilités restent à préciser. L’imagerie Landsat pour l’été 2024 est une piste préliminaire, à confirmer après vérification des scènes.
+- Le lien avec les îlots de chaleur est un contexte d’intérêt, mais le projet ne prévoit pas encore de mesurer directement cet effet.
+
+### Prochaines étapes
+
+- Pierre Perrais et Jean-Marc Tibo : convenir des critères de définition des zones vertes, du seuil minimal, des rôles et de la date exacte de remise.
+- L’équipe : inventorier les sources disponibles et consigner leur provenance, leur licence, leur période, leur CRS, leurs unités, leur qualité et leurs limites.
+- L’équipe : choisir la méthode et les indicateurs après l’évaluation des données, puis compléter la conception de la solution.
+
+---
+
 ## 2026-11-16 — Création du modèle de dépôt de projet
 
 **Rédigé par :** Assistant IA
