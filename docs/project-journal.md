@@ -2,6 +2,35 @@
 
 L’étudiant ou l’assistant IA peut rédiger les entrées. L’assistant ne consigne que les travaux réellement réalisés ; il distingue les décisions confirmées des propositions, questions ouvertes et décisions à suivre. Ajoutez les entrées de la plus récente en haut et copiez le modèle en fin de document pour chaque nouvelle entrée.
 
+## 2026-11-17 — Définition du périmètre
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-005
+
+### Travaux réalisés
+
+- Confirmation des éléments de périmètre consignés dans la définition du projet : ville de Sherbrooke, été 2024, imagerie Landsat, détection des éléments visibles sur les images et exclusion de la santé de la végétation et de la biodiversité.
+- Passage de T-005 à « Terminé » dans le tableau de bord.
+- Mise à jour de la progression du cadrage de 14 % à 18 %.
+
+### Décisions prises et raisons
+
+- Aucune nouvelle décision structurante n’a été ajoutée.
+
+### Difficultés et questions ouvertes
+
+- Les livrables restent à préciser dans T-006.
+- Les contraintes sont consignées, mais la définition opérationnelle d’une zone verte, la taille minimale détectable et les détails des livrables restent à trancher dans T-007.
+
+### Prochaines étapes
+
+- L’équipe : préciser la liste définitive des livrables, puis finaliser les contraintes et les questions ouvertes avant l’analyse détaillée des données.
+
+---
+
 ## 2026-11-16 — Répartition des responsabilités de l’équipe
 
 **Rédigé par :** Assistant IA

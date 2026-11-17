@@ -1,7 +1,7 @@
 {
   "project_name": "Identification et évaluation des zones vertes à Sherbrooke",
   "phase": "Cadrage du projet",
-  "progress": 14,
+  "progress": 18,
   "steps": [
     {
       "id": "M-01",
@@ -15,7 +15,7 @@
             { "id": "T-002", "name": "Contexte et besoin", "status": "Terminé" },
             { "id": "T-003", "name": "Problématique", "status": "Terminé" },
             { "id": "T-004", "name": "Objectifs", "status": "Terminé" },
-            { "id": "T-005", "name": "Périmètre", "status": "En cours" },
+            { "id": "T-005", "name": "Périmètre", "status": "Terminé" },
             { "id": "T-006", "name": "Résultats attendus", "status": "En cours" },
             { "id": "T-007", "name": "Contraintes et questions ouvertes", "status": "En cours" }
           ]
