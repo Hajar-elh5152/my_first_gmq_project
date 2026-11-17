@@ -2,6 +2,35 @@
 
 L’étudiant ou l’assistant IA peut rédiger les entrées. L’assistant ne consigne que les travaux réellement réalisés ; il distingue les décisions confirmées des propositions, questions ouvertes et décisions à suivre. Ajoutez les entrées de la plus récente en haut et copiez le modèle en fin de document pour chaque nouvelle entrée.
 
+## 2026-11-17 — Définition des résultats attendus
+
+**Rédigé par :** Assistant IA
+
+**Personnes impliquées :** Pierre Perrais
+
+**Identifiants liés :** M-01, T-006
+
+### Travaux réalisés
+
+- Confirmation de la liste des livrables du projet : carte des zones vertes, couche avec les attributs pertinents, tableau de synthèse et documentation de la méthode.
+- Retrait de la mention provisoire selon laquelle la liste des livrables devait encore être travaillée.
+- Passage de T-006 à « Terminé » dans le tableau de bord.
+- Mise à jour de la progression du cadrage de 18 % à 21 %.
+
+### Décisions prises et raisons
+
+- Aucun autre choix structurant n’a été confirmé.
+
+### Difficultés et questions ouvertes
+
+- T-007 reste à finaliser : les contraintes sont connues, mais la définition opérationnelle d’une zone verte et la plus petite superficie détectée restent ouvertes.
+
+### Prochaines étapes
+
+- Finaliser les contraintes et les questions ouvertes dans T-007, puis poursuivre l’inventaire et l’évaluation des données dans M-01.
+
+---
+
 ## 2026-11-17 — Définition du périmètre
 
 **Rédigé par :** Assistant IA

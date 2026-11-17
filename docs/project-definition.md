@@ -46,14 +46,12 @@ Comment on peut localiser et quantifier concrètement les zones végétales dans
 
 *But : indiquer les livrables prévus et ce qu’ils permettront de comprendre.*
 
-Selon la disponibilité des données, on souhaite produire :
+Le projet devra produire :
 
 - une carte des zones vertes
 - une couche ayant des attributs (superficie, catégorie, ...)
 - un tableau résumant la situation
 - une documentation expliquant l'approche
-
-> On doit encore travailler sur la liste des livrables
 
 ## 7. Contraintes et questions ouvertes
 
